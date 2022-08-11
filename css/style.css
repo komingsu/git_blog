@@ -2,49 +2,54 @@ html, body{
     width: 100%;
     height: 100%;
 }
-.bkg__01{
+.bkg{
     width: 100%;
     height: 100%;
-    background-image: url("../images/398.jpeg");
+    background-image: url("../images/398.jpg");
     background-size: cover;
     background-position: center;
     position: absolute;
     top : 0;
     
 }
+/*
 .grid_dot{
     width: 100%;
     height: 100%;
-    background-image: url("../images/dot.png");
+    background-image: url("../images/small_dot.png");
     position: absolute;
     top : 0;
     z-index : 10;
     
 }
+*/
 
 .contents{
     position: absolute;
     top : 0;
     z-index : 20;
-    color : white;
+    color : black;
     font-weight : bold;
     text-align: center;
-    font-family : monospace;
+    font-family : sans-serif;
 }
 
 .contents_name{
-    font-size : 72px;
+    font-size : 46px;
 }
 
 .contents_intro{
-    font-size : 36px;
-    color : azure
+    font-size : 26px;
 }
 
-.contents_menu{
-    font-size: 32px;
+.menu_list > li {
+    font-size: 20px;
+    display : inline-block;
+    border: 2px solid black;
+    border-radius: 20%;
+    width : 50px;
+    height : 50px;
 }
-
-.menu_list{
-    font-size: 12px;
+.menu_list > li > a {
+    color : inherit;
 }
