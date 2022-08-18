@@ -28,8 +28,12 @@ html, body{
     text-align: center;
     margin-left: 7%;
     border-bottom: 3px solid black;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
+.content_list{
+    margin-right: 40px;
+}
+
 
 .content_title{
     padding: 0.5em;
